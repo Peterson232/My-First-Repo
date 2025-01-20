@@ -1,0 +1,102 @@
+
+        body{
+            background-color: peachpuff;
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+        }
+        nav{
+            background-color: snow;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li{
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            padding: 10px 10px;
+            border-radius: 50px;
+        }
+        nav ul li a:hover{
+            background-color: darkseagreen;
+            color: snow;
+        }
+        .hero-image{
+            background-image: url("https://cdn.pixabay.com/photo/2016/04/19/13/22/hospital-1338585_960_720.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 570px;
+            border-radius: 15px;
+            margin: 20px;
+        }
+        main section p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        main section h1{
+            color: darkslategrey;
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        main section h2{
+            color: darkslategrey;
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        main section li{
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .image-one img{
+            height: 35vh;
+            width: 400px;
+        }
+        .image-two img{
+               height: 35vh;
+            width: 400px;
+        }
+        .image-three img{
+               height: 35vh;
+            width: 400px;
+        }
+        .image-four img{
+               height: 35vh;
+            width: 400px;
+        }
+
